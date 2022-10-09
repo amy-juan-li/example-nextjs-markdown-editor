@@ -1,6 +1,8 @@
 {
   "name": "codebrew-app",
-  "version": "0.1.0",
+  "author": "Amy Juan Li <amyjuanli.work@gmail.com> (https://github.com/amy-juan-li)",
+  "description": "Write your notes in markdown to increase your productivity.",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -19,7 +21,6 @@
     "codemirror": "^6.0.1",
     "github-markdown-css": "^5.1.0",
     "next": "12.3.1",
-    "next-transpile-modules": "^9.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",

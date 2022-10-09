@@ -8,7 +8,7 @@ import Preview from '../components/preview'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
-  const [doc, setDoc] = useState<string>('- task one Hello, World!\n')
+  const [doc, setDoc] = useState<string>('# Hello, World!\n')
   const handleDocChange = useCallback((newDoc: string) => {
     setDoc(newDoc)
   }, [])
