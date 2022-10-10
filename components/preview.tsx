@@ -21,7 +21,7 @@ const Preview = (props: Props) => {
       className={styles.reactMarkDown}
       components={{
         pre({ node, ...props }) { return <pre {...props} /> },
-        code({ node, inline, className, children, ...props }: CodeProps) {
+        code({ node, inline, className, children, style, ...props }: CodeProps) {
           const match = /language-(\w+)/.exec(className || '')
           return !inline && match ? (
             <CopyBtn codeText={String(children)}>
