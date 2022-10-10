@@ -42,6 +42,9 @@ yarn build
 ## Deploy on Vercel
 The deployed app link: https://example-nextjs-markdown-editor.vercel.app/
 
+## Relevant articles
+- (Learn to Build NextJS Applications)(https://medium.com/r/?url=https%3A%2F%2Famy-juan-li.medium.com%2Flist%2Fdb243e7bdf05)
+- [Build a Markdown Editor Using Electron, React, TypeScript, CodeMirror 6, and Remark](https://medium.com/r/?url=https%3A%2F%2Famy-juan-li.medium.com%2Fbuild-a-markdown-editor-using-electron-reactjs-vite-codemirror-and-remark-e551d91b6233)
 
 ## About me
 - [Portfolio Website](https://www.amyjuanli.com/)
