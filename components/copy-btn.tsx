@@ -5,17 +5,21 @@ import { MdOutlineContentCopy } from 'react-icons/md'
 
 interface Props {
   children: JSX.Element
+  codeText: string
 }
 
-const CopyBtn: React.FC<Props> = ({ children }) => {
+const CopyBtn: React.FC<Props> = ({ children, codeText }) => {
   const handleClick = (e: SyntheticEvent) => {
-    navigator.clipboard.writeText(children[0].props.children[0]);
+    navigator.clipboard.writeText(codeText);
   }
 
   return (
-    <span className="text-white absolute right-2 top-1 hover:cursor-pointer transition hover:scale-150">
-      <MdOutlineContentCopy onClick={handleClick} />
-    </span>
+    <div>
+      <span className="text-white absolute right-2 top-1 hover:cursor-pointer transition hover:scale-150">
+        <MdOutlineContentCopy onClick={handleClick} />
+      </span>
+      {children}
+    </div>
   )
 }
 
